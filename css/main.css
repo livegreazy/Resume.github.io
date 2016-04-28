@@ -94,7 +94,40 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.topNav{
+    height: 60px;
+    width: 100%;
+    background-color: blue;
+}
+.middle{
+    height: 578px;
+    width: 100%;
+    background-color: black;
+    background-image: url(/data/uploads/13/666792.jpg);
+    
+}
+.lowFooter{
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+}
+li{
+    height: 60px;
+    width: 70px;
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.picBox{
+    height: 578px;
+    width: 50%;
+    background-color: purple;
+}
 
 
 
