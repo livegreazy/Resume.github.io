@@ -94,39 +94,81 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 *{
     margin: 0px;
     padding: 0px;
 }
-.topNav{
-    height: 60px;
-    width: 100%;
-    background-color: blue;
+header {
+  text-align: center;
+  background-size: cover;
+  
+  color: white;
+  
 }
-.middle{
-    height: 578px;
-    width: 100%;
-    background-color: black;
-    background-image: url(/data/uploads/13/666792.jpg);
-    
+img{
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
 }
-.lowFooter{
-    height: 60px;
-    width: 100%;
-    background-color: yellow;
+a {
+  color: white;
 }
-li{
-    height: 60px;
-    width: 70px;
-    display: inline;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
+h1{
+  font-size: 70px;
 }
-.picBox{
-    height: 578px;
-    width: 50%;
-    background-color: purple;
+ul {
+  padding: 10px;
+  background: black;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+section{
+  text-align: center;
+  background-color: red;
+  width: 100%;
+  float: left;
+  padding-bottom: 50px;
+}
+h1{
+  color: black;
+}
+.title{
+  font-size: 30px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+  border-bottom: 2px dotted black;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right:400px;
+}
+.outterContainer{
+  width: 80%;
+  background-color: blue;
+  margin: 0 auto;
+  float: left;
+}
+.left{
+  width: 50%;
+  max-width: 460px;
+  background-color: yellow;
+  float: left;
+  height: 250px;
+  margin-left: 100px;
+}
+.right{
+  background-color: yellow;
+  width: 50%;
+  max-width: 460px;
+  float: right;
+  margin-right: 50px;
+
+}
+.innercontainer{
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 
